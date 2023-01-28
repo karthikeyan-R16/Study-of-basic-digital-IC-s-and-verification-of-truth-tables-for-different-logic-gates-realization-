@@ -63,6 +63,7 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
 Developed by: Karthikeyan R
 RegisterNumber:  22009322
 */
+```
 module volg_exp1 (a, b, y1, y2, y3, y4, y5, y6, y7, y8);
 input a, b;
 output y1, y2, y3, y4, y5, y6, y7, y8;
@@ -75,11 +76,13 @@ xnor(y6, a, b);
 nor (y7, a, b);
 nand (y8, a, b);
 endmodule
+```
+## Logic symbol & Truthtable RTL realization
+![output](./214540411-b54dab1a-58ca-45e8-9a1b-a80233c341cf.png)
 
-Logic symbol & Truthtable RTL realization
-![output](./logic_gate.png)
-waveform
-![output](./ag.png)
+![output](./214540605-c2f85927-ebcc-4da5-b2aa-3a4796494f43.png)
 
-Result:
+![output](./214541305-33ffc08f-a9e6-4018-97ce-66114c7ea31b.png)
+
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
